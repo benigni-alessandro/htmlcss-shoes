@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* nav bar */
+nav ul{
+  list-style: none;
+}
+nav ul li{
+  display: inline-block;
+}
+/* background color header */
+header{
+  background-color: transparent;
+  width: 100%;
+  text-align: right;
+  position: fixed;
+  z-index: 2;
+}
+li{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+a{
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+  border-radius: 50%;
+  border: 2px solid black;
+  padding: 2px 2px;
+  background: white;
+}
+.scarpa-1{
+  height: 100vh;
+  background: url('../img/01.png') no-repeat center center fixed;
+  background-size: 600px;
+  background-color: red;
+}
+[class^="col-"]{
+  float: left;
+}
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.col-100{
+  width: 100%;
+  position: relative;
+}
+.text{
+  font-size: 40px;
+  font-weight: bold;
+  color: yellow;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+/* seconda pagina */
+
+.text-2{
+  font-size: 40px;
+  font-weight: bold;
+  color: yellow;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.scarpa-2{
+  height: 100vh;
+  background: url('../img/02.png') no-repeat center center fixed;
+  background-size: 600px;
+  background-color: green;
+}
+/* terza pagina */
+
+.text-3{
+  font-size: 40px;
+  font-weight: bold;
+  color: green;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.scarpa-3{
+  height: 100vh;
+  background: url('../img/03.png') no-repeat center center fixed;
+  background-size: 600px;
+  background-color: yellow;
