@@ -25,19 +25,17 @@ li{
 }
 a{
   text-decoration: none;
-  font-size: 30px;
+  font-size: 20px;
   color: black;
   border-radius: 50%;
   border: 2px solid black;
-  padding: 2px 2px;
+  padding: 20px 20px;
   background: white;
+  width: 30px;
+  height: 30px;
+
 }
-.scarpa-1{
-  height: 100vh;
-  background: url('../img/01.png') no-repeat center center fixed;
-  background-size: 600px;
-  background-color: red;
-}
+
 [class^="col-"]{
   float: left;
 }
@@ -50,6 +48,18 @@ a{
   width: 100%;
   position: relative;
 }
+/* colonna 1 */
+
+.scarpa-1{
+  height: 100vh;
+  background-color: red;
+}
+.scarpa1{
+  position: absolute;
+  top: 25%;
+  right: 29%;
+}
+
 .text{
   font-size: 40px;
   font-weight: bold;
@@ -72,10 +82,14 @@ a{
 }
 .scarpa-2{
   height: 100vh;
-  background: url('../img/02.png') no-repeat center center fixed;
-  background-size: 600px;
   background-color: green;
 }
+.scarpa2{
+  position: absolute;
+  top: 25%;
+  right: 29%;
+}
+
 /* terza pagina */
 
 .text-3{
@@ -89,6 +103,10 @@ a{
 }
 .scarpa-3{
   height: 100vh;
-  background: url('../img/03.png') no-repeat center center fixed;
-  background-size: 600px;
   background-color: yellow;
+}
+.scarpa3{
+  position: absolute;
+  top: 25%;
+  right: 29%;
+}
