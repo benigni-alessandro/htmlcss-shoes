@@ -1,0 +1,113 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* nav bar */
+nav ul{
+  list-style: none;
+}
+nav ul li{
+  display: inline-block;
+}
+/* background color header */
+header{
+  background-color: transparent;
+  width: 100%;
+  text-align: right;
+  position: fixed;
+  z-index: 2;
+  scroll-behavior: smooth;
+}
+li{
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+}
+a{
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  border-radius: 50%;
+  border: 2px solid black;
+  padding: 20px 20px;
+  background: white;
+  width: 30px;
+  height: 30px;
+
+}
+
+[class^="col-"]{
+  float: left;
+}
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.col-100{
+  width: 100%;
+  position: relative;
+}
+/* colonna 1 */
+
+.scarpa-1{
+  height: 100vh;
+  background-color: red;
+}
+.scarpa1{
+  position: absolute;
+  top: 25%;
+  right: 29%;
+}
+
+.text{
+  font-size: 40px;
+  font-weight: bold;
+  color: yellow;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+/* seconda pagina */
+
+.text-2{
+  font-size: 40px;
+  font-weight: bold;
+  color: yellow;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.scarpa-2{
+  height: 100vh;
+  background-color: green;
+}
+.scarpa2{
+  position: absolute;
+  top: 25%;
+  right: 29%;
+}
+
+/* terza pagina */
+
+.text-3{
+  font-size: 40px;
+  font-weight: bold;
+  color: green;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.scarpa-3{
+  height: 100vh;
+  background-color: yellow;
+}
+.scarpa3{
+  position: absolute;
+  top: 25%;
+  right: 29%;
+}
